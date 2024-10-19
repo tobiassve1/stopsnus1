@@ -40,110 +40,35 @@
         a:hover {
             text-decoration: underline;
         }
-        .language-select {
-            margin-bottom: 20px;
-            text-align: right;
-        }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="language-select">
-            <label for="language">Vælg sprog: </label>
-            <select id="language" onchange="changeLanguage()">
-                <option value="da">Dansk</option>
-                <option value="no">Norsk</option>
-                <option value="sv">Svensk</option>
-                <option value="en">Engelsk</option>
-            </select>
-        </div>
-
-        <h1 id="title">Privatlivspolitik for Stop snus</h1>
+        <h1>Privatlivspolitik for Stop snus</h1>
 
         <p><strong>Sidst opdateret: 19/10/2024</strong></p>
 
-        <div id="content">
-            <!-- Text content goes here, changes dynamically -->
-            <h2>Introduktion</h2>
-            <p>Denne privatlivspolitik forklarer, hvordan vi behandler din personlige information i appen <strong>Stop snus</strong>. Vi indsamler ikke dine personlige data, og alle oplysninger opbevares kun på din enhed. Vi bruger dog tredjeparts tjenester til annoncering (f.eks. Google AdMob), som kan indsamle data om din enhed og brugeradfærd.</p>
+        <h2>Introduktion</h2>
+        <p>Denne privatlivspolitik forklarer, hvordan vi behandler din personlige information i appen <strong>Stop snus</strong>. Vi indsamler ikke dine personlige data, og alle oplysninger opbevares kun på din enhed. Vi bruger dog tredjeparts tjenester til annoncering (f.eks. Google AdMob), som kan indsamle data om din enhed og brugeradfærd.</p>
 
-            <h2>Indsamling og lagring af data</h2>
-            <p>Appen gemmer din personlige information, såsom brugernavn og andre oplysninger, udelukkende på din enhed. Vi har ingen adgang til disse oplysninger.</p>
-            <p>Vi bruger Google AdMob til annoncering. Google AdMob kan indsamle data såsom enheds-ID'er, brugeradfærd og placering for at levere personlige annoncer. Du kan finde mere information om, hvordan Google AdMob indsamler og bruger data, i deres <a href="https://policies.google.com/privacy" target="_blank">privatlivspolitik</a>.</p>
+        <h2>Indsamling og lagring af data</h2>
+        <p>Appen gemmer din personlige information, såsom brugernavn og andre oplysninger, udelukkende på din enhed. Vi har ingen adgang til disse oplysninger.</p>
+        <p>Vi bruger Google AdMob til annoncering. Google AdMob kan indsamle data såsom enheds-ID'er, brugeradfærd og placering for at levere personlige annoncer. Du kan finde mere information om, hvordan Google AdMob indsamler og bruger data, i deres <a href="https://policies.google.com/privacy" target="_blank">privatlivspolitik</a>.</p>
 
-            <h2>Brugerrettigheder</h2>
-            <p>Du kan justere dine privatlivsindstillinger på din enhed for at kontrollere, hvordan annoncering fungerer. Følg disse trin for at ændre dine indstillinger:</p>
-            <ul>
-                <li><strong>iOS-enheder:</strong> Gå til <em>Indstillinger &gt; Privatliv &gt; Reklamer</em> og aktiver "Begræns reklamesporing".</li>
-                <li><strong>Android-enheder:</strong> Gå til <em>Indstillinger &gt; Google &gt; Annoncer</em> og aktiver "Fravælg personlig annoncering".</li>
-            </ul>
+        <h2>Brugerrettigheder</h2>
+        <p>Du kan justere dine privatlivsindstillinger på din enhed for at kontrollere, hvordan annoncering fungerer. Følg disse trin for at ændre dine indstillinger:</p>
+        <ul>
+            <li><strong>iOS-enheder:</strong> Gå til <em>Indstillinger &gt; Privatliv &gt; Reklamer</em> og aktiver "Begræns reklamesporing".</li>
+            <li><strong>Android-enheder:</strong> Gå til <em>Indstillinger &gt; Google &gt; Annoncer</em> og aktiver "Fravælg personlig annoncering".</li>
+        </ul>
 
-            <h2>Ændringer til denne politik</h2>
-            <p>Vi forbeholder os retten til at opdatere denne privatlivspolitik. Eventuelle ændringer vil blive opdateret på denne side, og vi anbefaler, at du regelmæssigt gennemgår denne side for opdateringer.</p>
+        <h2>Ændringer til denne politik</h2>
+        <p>Vi forbeholder os retten til at opdatere denne privatlivspolitik. Eventuelle ændringer vil blive opdateret på denne side, og vi anbefaler, at du regelmæssigt gennemgår denne side for opdateringer.</p>
 
-            <h2>Kontakt</h2>
-            <p>Hvis du har spørgsmål til denne privatlivspolitik eller om din data, kan du kontakte os via e-mail på: <a href="mailto:tobias@kromai.dk">tobias@kromai.dk</a>.</p>
-        </div>
+        <h2>Kontakt</h2>
+        <p>Hvis du har spørgsmål til denne privatlivspolitik eller om din data, kan du kontakte os via e-mail på: <a href="mailto:din-email-adresse">tobias@kromai.dk</a>.</p>
     </div>
 
-    <script>
-        const translations = {
-            da: {
-                title: "Privatlivspolitik for Stop snus",
-                intro: "Denne privatlivspolitik forklarer, hvordan vi behandler din personlige information i appen <strong>Stop snus</strong>. Vi indsamler ikke dine personlige data, og alle oplysninger opbevares kun på din enhed. Vi bruger dog tredjeparts tjenester til annoncering (f.eks. Google AdMob), som kan indsamle data om din enhed og brugeradfærd.",
-                data: "Appen gemmer din personlige information, såsom brugernavn og andre oplysninger, udelukkende på din enhed. Vi har ingen adgang til disse oplysninger.",
-                rights: "Du kan justere dine privatlivsindstillinger på din enhed for at kontrollere, hvordan annoncering fungerer. Følg disse trin for at ændre dine indstillinger:",
-                changes: "Vi forbeholder os retten til at opdatere denne privatlivspolitik.",
-                contact: "Hvis du har spørgsmål til denne privatlivspolitik eller om din data, kan du kontakte os via e-mail på: "
-            },
-            no: {
-                title: "Personvernregler for Slutt snus",
-                intro: "Denne personvernregelen forklarer hvordan vi behandler din personlige informasjon i appen <strong>Slutt snus</strong>. Vi samler ikke inn dine personlige data, og all informasjon oppbevares kun på enheten din. Vi bruker imidlertid tredjepartstjenester for annonsering (f.eks. Google AdMob), som kan samle inn data om enheten din og brukeradferd.",
-                data: "Appen lagrer din personlige informasjon, som brukernavn og andre opplysninger, kun på enheten din. Vi har ingen tilgang til disse opplysningene.",
-                rights: "Du kan justere personverninnstillingene dine på enheten for å kontrollere hvordan annonsering fungerer.",
-                changes: "Vi forbeholder oss retten til å oppdatere denne personvernregelen.",
-                contact: "Hvis du har spørsmål om denne personvernregelen eller dine data, kan du kontakte oss via e-post på: "
-            },
-            sv: {
-                title: "Integritetspolicy för Sluta snusa",
-                intro: "Den här integritetspolicyn förklarar hur vi hanterar din personliga information i appen <strong>Sluta snusa</strong>. Vi samlar inte in dina personuppgifter, och all information lagras endast på din enhet. Vi använder dock tredjepartstjänster för annonsering (t.ex. Google AdMob), som kan samla in data om din enhet och användarbeteende.",
-                data: "Appen lagrar din personliga information, såsom användarnamn och annan information, endast på din enhet. Vi har ingen åtkomst till denna information.",
-                rights: "Du kan justera dina integritetsinställningar på din enhet för att kontrollera hur annonsering fungerar.",
-                changes: "Vi förbehåller oss rätten att uppdatera denna integritetspolicy.",
-                contact: "Om du har några frågor om denna integritetspolicy eller dina uppgifter kan du kontakta oss via e-post på: "
-            },
-            en: {
-                title: "Privacy Policy for Stop snus",
-                intro: "This privacy policy explains how we handle your personal information in the <strong>Stop snus</strong> app. We do not collect your personal data, and all information is stored only on your device. However, we use third-party services for advertising (e.g., Google AdMob), which may collect data about your device and user behavior.",
-                data: "The app stores your personal information, such as username and other details, solely on your device. We do not have access to this information.",
-                rights: "You can adjust your privacy settings on your device to control how advertising works.",
-                changes: "We reserve the right to update this privacy policy.",
-                contact: "If you have any questions regarding this privacy policy or your data, you can contact us via email at: "
-            }
-        };
-
-        function changeLanguage() {
-            const lang = document.getElementById("language").value;
-            document.getElementById("title").innerHTML = translations[lang].title;
-            const content = `
-                <h2>Introduction</h2>
-                <p>${translations[lang].intro}</p>
-
-                <h2>Data Collection and Storage</h2>
-                <p>${translations[lang].data}</p>
-
-                <h2>User Rights</h2>
-                <p>${translations[lang].rights}</p>
-
-                <h2>Changes to This Policy</h2>
-                <p>${translations[lang].changes}</p>
-
-                <h2>Contact</h2>
-                <p>${translations[lang].contact}<a href="mailto:tobias@kromai.dk">tobias@kromai.dk</a>.</p>
-            `;
-            document.getElementById("content").innerHTML = content;
-        }
-    </script>
 </body>
 </html>
